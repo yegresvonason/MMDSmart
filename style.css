@@ -1,0 +1,20 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yegresvonason\/Documents\/dev\/mmdsmart\/style\.scss}line{font-family:\000031}}
+* {
+  border: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yegresvonason\/Documents\/dev\/mmdsmart\/style\.scss}line{font-family:\000038}}
+a {
+  text-decoration: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yegresvonason\/Documents\/dev\/mmdsmart\/style\.scss}line{font-family:\0000312}}
+li {
+  list-style: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yegresvonason\/Documents\/dev\/mmdsmart\/style\.scss}line{font-family:\0000316}}
+#menu-row li {
+  display: inline-block;
+  text-transform: uppercase; }

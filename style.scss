@@ -1,0 +1,19 @@
+*{
+    border: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+#menu-row li{
+    display: inline-block;
+    text-transform: uppercase;
+}
