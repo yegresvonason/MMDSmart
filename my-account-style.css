@@ -1,0 +1,267 @@
+* {
+  border: none;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none; }
+
+li {
+  list-style: none; }
+
+.logo-container, .top-menu, .balance-container, .auth-container {
+  display: inline-block; }
+
+.top-container {
+  background-color: #fff;
+  height: 62px;
+  padding: 0 50px; }
+
+.logo-container {
+  float: left; }
+  .logo-container img {
+    height: 50px; }
+
+.top-menu {
+  float: right;
+  position: relative; }
+  .top-menu .balance-container {
+    border-left: 1px solid #333;
+    border-right: 1px solid #333;
+    position: absolute;
+    text-align: center;
+    top: 10px;
+    left: -115px;
+    padding: 0 8px; }
+    .top-menu .balance-container span {
+      font-size: 12px;
+      text-transform: uppercase; }
+    .top-menu .balance-container #balance-count {
+      color: #ec018a;
+      font-weight: bold; }
+  .top-menu button {
+    background-image: url("add_credit.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: #fff;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: bold;
+    height: 48px;
+    margin-right: 15px;
+    padding-left: 8px;
+    text-align: left;
+    text-transform: uppercase;
+    width: 140px; }
+  .top-menu .auth-container {
+    background-color: #0066a0;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    padding: 15px 35px; }
+    .top-menu .auth-container a {
+      color: #ffffff;
+      font-size: 12px;
+      font-weight: bold; }
+    .top-menu .auth-container span {
+      color: #fff; }
+
+.menu-container {
+  background: linear-gradient(to right, #bc52ac, #0066a0);
+  text-align: center;
+  height: 58px; }
+
+#menu-row {
+  height: 100%;
+  width: 100%; }
+  #menu-row li {
+    color: #fffdfe;
+    cursor: pointer;
+    height: 100%;
+    display: inline-block;
+    padding: 5px 30px;
+    text-transform: uppercase; }
+    #menu-row li img {
+      display: block;
+      margin-bottom: 5px; }
+  #menu-row li:hover {
+    background: #7c437a; }
+
+main {
+  background-color: #cae8f0;
+  min-height: 285px;
+  padding: 58px 0 0 50px; }
+  main .account-container {
+    border-right: 1px solid #666666;
+    display: inline-block;
+    width: 240px; }
+    main .account-container h2 {
+      color: #000000;
+      font-size: 20px;
+      font-weight: 300;
+      margin-bottom: 28px;
+      text-transform: uppercase; }
+    main .account-container .photo-container {
+      margin-bottom: 10px; }
+  main .account-data {
+    display: inline-block;
+    padding-left: 5px;
+    position: relative;
+    vertical-align: top; }
+    main .account-data .string1 div, main .account-data .string2 div, main .account-data .string3 div {
+      width: 400px;
+      position: absolute; }
+    main .account-data .string1 div:nth-of-type(1), main .account-data .string2 div:nth-of-type(1), main .account-data .string3 div:nth-of-type(1) {
+      left: 5px; }
+    main .account-data .string1 div:nth-of-type(2), main .account-data .string2 div:nth-of-type(2), main .account-data .string3 div:nth-of-type(2) {
+      left: 375px; }
+    main .account-data .string1 div:nth-of-type(3), main .account-data .string2 div:nth-of-type(3), main .account-data .string3 div:nth-of-type(3) {
+      left: 775px; }
+    main .account-data .string1 div {
+      top: 0; }
+    main .account-data .string2 div {
+      top: 70px; }
+    main .account-data .string3 div {
+      top: 140px; }
+    main .account-data h2 {
+      color: #0066af;
+      font-size: 16px;
+      font-weight: bold;
+      text-transform: uppercase; }
+    main .account-data span {
+      color: #000000;
+      font-size: 16px;
+      font-weight: 300; }
+    main .account-data a {
+      color: #0172c0;
+      display: block;
+      margin-top: -6px;
+      text-decoration: underline; }
+    main .account-data .buttons button {
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 14px;
+      height: 32px;
+      padding-left: 10px;
+      text-align: left;
+      text-transform: uppercase; }
+    main .account-data .buttons button:nth-of-type(1) {
+      background-image: url("edit_account_idle.png");
+      background-repeat: no-repeat;
+      color: #fff;
+      margin-right: 16px;
+      width: 103px; }
+    main .account-data .buttons button:nth-of-type(2) {
+      background-image: url("add_subaccount_idle.png");
+      color: #fff;
+      width: 183px; }
+
+.edit-container {
+  background-color: #ffffff;
+  min-height: 285px;
+  padding: 48px 0 0 50px; }
+  .edit-container .vertical-line {
+    border-right: 1px solid #666666;
+    display: inline-block;
+    height: 180px;
+    width: 240px; }
+  .edit-container .account-data {
+    display: inline-block;
+    position: relative;
+    vertical-align: top; }
+    .edit-container .account-data .string1 div, .edit-container .account-data .string2 div, .edit-container .account-data .string3 div {
+      width: 400px;
+      position: absolute; }
+    .edit-container .account-data .string1 div:nth-of-type(1), .edit-container .account-data .string2 div:nth-of-type(1), .edit-container .account-data .string3 div:nth-of-type(1) {
+      left: 5px; }
+    .edit-container .account-data .string1 div:nth-of-type(2), .edit-container .account-data .string2 div:nth-of-type(2), .edit-container .account-data .string3 div:nth-of-type(2) {
+      left: 375px; }
+    .edit-container .account-data .string1 div:nth-of-type(3), .edit-container .account-data .string2 div:nth-of-type(3), .edit-container .account-data .string3 div:nth-of-type(3) {
+      left: 775px; }
+    .edit-container .account-data .string1 div {
+      top: 0; }
+    .edit-container .account-data .string2 div {
+      top: 70px; }
+    .edit-container .account-data .string3 div {
+      top: 140px; }
+    .edit-container .account-data h2 {
+      color: #0066af;
+      font-size: 16px;
+      font-weight: bold;
+      text-transform: uppercase; }
+    .edit-container .account-data span {
+      color: #000000;
+      font-size: 16px;
+      font-weight: 300; }
+    .edit-container .account-data a {
+      color: #0172c0;
+      display: block;
+      margin-top: -6px;
+      text-decoration: underline; }
+    .edit-container .account-data .buttons button {
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 14px;
+      height: 32px;
+      padding-left: 10px;
+      text-align: left;
+      text-transform: uppercase;
+      width: 103px; }
+    .edit-container .account-data .buttons button:nth-of-type(1) {
+      background-image: url("edit_subaccount_idle.png");
+      background-position: right;
+      border: 1px solid #50b278;
+      color: #50b278;
+      margin-right: 16px; }
+    .edit-container .account-data .buttons button:nth-of-type(2) {
+      background-image: url("delete_subaccount_idle.png");
+      background-position: right;
+      border: 1px solid #9d56aa;
+      color: #9d56aa; }
+
+.line {
+  background-color: #cccccc;
+  height: 1px;
+  margin: 0 60px 48px; }
+
+.third-container {
+  padding: 48px 0 0 50px; }
+  .third-container .vertical-line {
+    border-right: 1px solid #666666;
+    display: inline-block;
+    height: 40px;
+    width: 240px; }
+  .third-container .account-data {
+    display: inline-block;
+    position: relative;
+    vertical-align: top; }
+    .third-container .account-data .string1 div {
+      top: 0;
+      width: 400px;
+      position: absolute; }
+    .third-container .account-data .string1 div:nth-of-type(1) {
+      left: 5px; }
+    .third-container .account-data .string1 div:nth-of-type(2) {
+      left: 375px; }
+    .third-container .account-data .string1 div:nth-of-type(3) {
+      left: 775px; }
+    .third-container .account-data h2 {
+      color: #0066af;
+      font-size: 16px;
+      font-weight: bold;
+      text-transform: uppercase; }
+    .third-container .account-data span {
+      color: #000000;
+      font-size: 16px;
+      font-weight: 300; }
+
+footer {
+  background-color: #0066a0;
+  color: #fff;
+  font-size: 14px;
+  height: 30px;
+  padding: 2px 0 0 80px; }
+
+/*# sourceMappingURL=my-account-style.css.map */

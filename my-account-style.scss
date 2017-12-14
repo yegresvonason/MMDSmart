@@ -1,0 +1,388 @@
+*{
+    border: none;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+.logo-container, .top-menu, .balance-container, .auth-container{
+    display: inline-block;
+}
+
+.top-container{
+    background-color: #fff;
+    height: 62px;
+    padding: 0 50px;
+}
+
+.logo-container{
+    float: left;
+
+    img{
+        height: 50px;
+    }
+}
+
+.top-menu{
+    float: right;
+    position: relative;
+
+    .balance-container{
+        border-left: 1px solid #333;
+        border-right: 1px solid #333;
+        position: absolute;
+        text-align: center;
+        top: 10px;
+        left: -115px;
+        padding: 0 8px;
+
+        span{
+            font-size: 12px;
+            text-transform: uppercase;
+        }
+
+        #balance-count{
+            color: #ec018a;
+            font-weight: bold;
+        }
+    }
+
+    button{
+        background-image: url('add_credit.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        color: #fff;
+        cursor: pointer;
+        font-size: 12px;
+        font-weight: bold;
+        height: 48px;
+        margin-right: 15px;
+        padding-left: 8px;
+        text-align: left;
+        text-transform: uppercase;
+        width: 140px;
+    }
+
+    .auth-container{
+        background-color: #0066a0;
+        border-bottom-left-radius: 8px;
+        border-bottom-right-radius: 8px;
+        padding: 15px 35px;
+        
+        a{
+            color: #ffffff;
+            font-size: 12px;
+            font-weight: bold;
+        }
+
+        span{
+            color: #fff;
+        }
+    }
+}
+
+.menu-container{
+    background: linear-gradient(to right, #bc52ac, #0066a0);
+    text-align: center;
+    height: 58px;
+}
+
+#menu-row{
+    height: 100%;
+    width: 100%;
+
+    li{
+        color: #fffdfe;
+        cursor: pointer;
+        height: 100%;
+        display: inline-block;
+        padding: 5px 30px;
+        text-transform: uppercase;
+
+        img{
+            display: block;
+            margin-bottom: 5px;
+        }
+    }
+    li:hover{
+        background: #7c437a;
+    }
+
+}
+
+main{
+    background-color: #cae8f0;
+    min-height: 285px;
+    padding: 58px 0 0 50px;
+
+    .account-container{
+        border-right: 1px solid #666666;
+        display: inline-block;
+        width: 240px;
+        
+        h2{
+            color: #000000;
+            font-size: 20px;
+            font-weight: 300;
+            margin-bottom: 28px;
+            text-transform: uppercase;
+        }
+
+        .photo-container{
+            margin-bottom: 10px;
+        }
+    }
+
+    .account-data{
+        display: inline-block;
+        padding-left: 5px;
+        position: relative;
+        vertical-align: top;
+
+        .string1 div, .string2 div, .string3 div{
+            width: 400px;
+            position: absolute;
+        }
+
+        .string1 div:nth-of-type(1), .string2 div:nth-of-type(1), .string3 div:nth-of-type(1){
+            left: 5px;
+        }
+
+        .string1 div:nth-of-type(2), .string2 div:nth-of-type(2), .string3 div:nth-of-type(2){
+            left: 375px;
+        }
+
+        .string1 div:nth-of-type(3), .string2 div:nth-of-type(3), .string3 div:nth-of-type(3){
+            left: 775px;
+        }
+
+        .string1 div{
+            top: 0;
+        }
+
+        .string2 div{
+            top: 70px;
+        }
+
+        .string3 div{
+            top: 140px;
+        }
+
+        h2{
+            color: #0066af;
+            font-size: 16px;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        span{
+            color: #000000;
+            font-size: 16px;
+            font-weight: 300;
+        }
+
+        a{
+            color: #0172c0;
+            display: block;
+            margin-top: -6px;
+            text-decoration: underline;
+        }
+
+        .buttons{
+
+            button{
+                border-radius: 4px;
+                cursor: pointer;
+                font-size: 14px;
+                height: 32px;
+                padding-left: 10px;
+                text-align: left;
+                text-transform: uppercase;
+            }
+
+            button:nth-of-type(1){
+                // background: linear-gradient(to right, #0066af, #50b278);
+                background-image: url('edit_account_idle.png');
+                // background-position: right;
+                background-repeat: no-repeat;
+                color: #fff;
+                margin-right: 16px;
+                width: 103px;
+            }
+
+            button:nth-of-type(2){
+                // background: linear-gradient(to right, #c252ac, #7c59a8);
+                background-image: url('add_subaccount_idle.png');
+                color: #fff;
+                width: 183px;
+            }
+        }
+    }
+}
+
+.edit-container{
+    background-color: #ffffff;
+    min-height: 285px;
+    padding: 48px 0 0 50px;
+
+    .vertical-line{
+        border-right: 1px solid #666666;
+        display: inline-block;
+        height: 180px;
+        width: 240px;
+    }
+
+    .account-data{
+        display: inline-block;
+        position: relative;
+        vertical-align: top;
+
+        .string1 div, .string2 div, .string3 div{
+            width: 400px;
+            position: absolute;
+        }
+
+        .string1 div:nth-of-type(1), .string2 div:nth-of-type(1), .string3 div:nth-of-type(1){
+            left: 5px;
+        }
+
+        .string1 div:nth-of-type(2), .string2 div:nth-of-type(2), .string3 div:nth-of-type(2){
+            left: 375px;
+        }
+
+        .string1 div:nth-of-type(3), .string2 div:nth-of-type(3), .string3 div:nth-of-type(3){
+            left: 775px;
+        }
+
+        .string1 div{
+            top: 0;
+        }
+
+        .string2 div{
+            top: 70px;
+        }
+
+        .string3 div{
+            top: 140px;
+        }
+
+        h2{
+            color: #0066af;
+            font-size: 16px;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        span{
+            color: #000000;
+            font-size: 16px;
+            font-weight: 300;
+        }
+
+        a{
+            color: #0172c0;
+            display: block;
+            margin-top: -6px;
+            text-decoration: underline;
+        }
+
+        .buttons{
+
+            button{
+                border-radius: 4px;
+                cursor: pointer;
+                font-size: 14px;
+                height: 32px;
+                padding-left: 10px;
+                text-align: left;
+                text-transform: uppercase;
+                width: 103px;
+            }
+
+            button:nth-of-type(1){
+                background-image: url('edit_subaccount_idle.png');
+                background-position: right;
+                border: 1px solid #50b278;
+                color: #50b278;
+                margin-right: 16px;
+            }
+
+            button:nth-of-type(2){
+                background-image: url('delete_subaccount_idle.png');
+                background-position: right;
+                border: 1px solid #9d56aa;
+                color: #9d56aa;
+            }
+        }
+    }
+}
+.line{
+    background-color: #cccccc;
+    height: 1px;
+    margin: 0 60px 48px;
+}
+
+.third-container{
+    padding: 48px 0 0 50px;
+
+    .vertical-line{
+        border-right: 1px solid #666666;
+        display: inline-block;
+        height: 40px;
+        width: 240px;
+    }
+
+    .account-data{
+        display: inline-block;
+        position: relative;
+        vertical-align: top;
+
+        .string1 div{
+            top: 0;
+            width: 400px;
+            position: absolute;
+        }
+
+        .string1 div:nth-of-type(1){
+            left: 5px;
+        }
+
+        .string1 div:nth-of-type(2){
+            left: 375px;
+        }
+
+        .string1 div:nth-of-type(3){
+            left: 775px;
+        }
+
+        h2{
+            color: #0066af;
+            font-size: 16px;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        span{
+            color: #000000;
+            font-size: 16px;
+            font-weight: 300;
+        }
+    }
+}
+footer{
+    background-color: #0066a0;
+    color: #fff;
+    font-size: 14px;
+    height: 30px;
+    padding: 2px 0 0 80px;
+}
