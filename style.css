@@ -15,81 +15,182 @@ a {
 li {
   list-style: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/dev\/mmdsmart\/MMDSmart\/style\.scss}line{font-family:\0000319}}
-header .top-header {
-  height: 60px;
-  padding: 0 60px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/dev\/mmdsmart\/MMDSmart\/style\.scss}line{font-family:\0000323}}
-  header .top-header .logo-container {
-    display: inline-block;
-    float: left; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/dev\/mmdsmart\/MMDSmart\/style\.scss}line{font-family:\0000328}}
-  header .top-header .header-info {
-    display: inline-block;
-    float: right;
-    position: relative; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/dev\/mmdsmart\/MMDSmart\/style\.scss}line{font-family:\0000333}}
-    header .top-header .header-info .balance-container {
-      border-left: 1px solid #333;
-      border-right: 1px solid #333;
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/dev\/mmdsmart\/MMDSmart\/style\.scss}line{font-family:\0000317}}
+.wrapper {
+  border: 1px solid #222;
+  margin: 40px auto;
+  width: 1085px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/dev\/mmdsmart\/MMDSmart\/style\.scss}line{font-family:\0000324}}
+  .wrapper .header .header-title {
+    background-color: #0066a0;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    height: 45px;
+    line-height: 45px;
+    padding-left: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/dev\/mmdsmart\/MMDSmart\/style\.scss}line{font-family:\0000332}}
+    .wrapper .header .header-title h3 {
+      color: #fff;
       display: inline-block;
-      left: -250px;
-      padding: 0 15px;
-      position: absolute;
-      text-align: center;
-      top: 7px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/dev\/mmdsmart\/MMDSmart\/style\.scss}line{font-family:\0000343}}
-      header .top-header .header-info .balance-container span {
-        display: block;
-        font-size: 12px;
-        text-transform: uppercase; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/dev\/mmdsmart\/MMDSmart\/style\.scss}line{font-family:\0000349}}
-      header .top-header .header-info .balance-container span:nth-of-type(2) {
-        color: #ed1191;
-        font-size: 18px;
-        font-weight: bold; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/dev\/mmdsmart\/MMDSmart\/style\.scss}line{font-family:\0000356}}
-    header .top-header .header-info button {
-      background-image: url("add_credit.png");
-      background-repeat: no-repeat;
-      background-size: cover;
+      font-size: 16px;
+      font-weight: bold;
+      text-transform: uppercase;
+      width: 92%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/dev\/mmdsmart\/MMDSmart\/style\.scss}line{font-family:\0000341}}
+    .wrapper .header .header-title img {
+      color: #fff;
+      display: inline-block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/dev\/mmdsmart\/MMDSmart\/style\.scss}line{font-family:\0000347}}
+  .wrapper .header .import-container {
+    background: -webkit-gradient(linear, left top, right top, from(#ffffff), to(#e1e2e4));
+    background: linear-gradient(to right, #ffffff, #e1e2e4);
+    height: 48px;
+    padding-left: 20px;
+    padding-top: 5px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/dev\/mmdsmart\/MMDSmart\/style\.scss}line{font-family:\0000353}}
+    .wrapper .header .import-container input, .wrapper .header .import-container button {
+      border-radius: 8px;
+      height: 38px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/dev\/mmdsmart\/MMDSmart\/style\.scss}line{font-family:\0000358}}
+    .wrapper .header .import-container input[type="text"] {
+      border: 1px solid #00669f;
+      color: #00669f;
+      font-size: 15px;
+      font-weight: bold;
+      padding-left: 10px;
+      width: 83%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/dev\/mmdsmart\/MMDSmart\/style\.scss}line{font-family:\0000366}}
+      .wrapper .header .import-container input[type="text"] ::-webkit-input-placeholder, .wrapper .header .import-container input[type="text"] :-ms-input-placeholder, .wrapper .header .import-container input[type="text"] :-moz-placeholder, .wrapper .header .import-container input[type="text"] ::-moz-placeholder, .wrapper .header .import-container input[type="text"] ::-webkit-input-placeholder {
+        color: #00669f; }
+      .wrapper .header .import-container input[type="text"] ::-webkit-input-placeholder, .wrapper .header .import-container input[type="text"] :-ms-input-placeholder, .wrapper .header .import-container input[type="text"] :-moz-placeholder, .wrapper .header .import-container input[type="text"] ::-moz-placeholder, .wrapper .header .import-container input[type="text"] ::placeholder {
+        color: #00669f; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/dev\/mmdsmart\/MMDSmart\/style\.scss}line{font-family:\0000371}}
+    .wrapper .header .import-container button {
+      background-image: url("Import_recipient_idle.png");
       color: #fff;
       cursor: pointer;
-      display: inline-block;
-      font-size: 12px;
-      font-weight: bold;
-      height: 42px;
-      left: -120px;
-      padding-left: 4px;
-      position: absolute;
+      font-size: 14px;
+      margin-left: 5px;
+      padding-left: 10px;
       text-align: left;
       text-transform: uppercase;
-      top: 7px;
-      width: 120px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/dev\/mmdsmart\/MMDSmart\/style\.scss}line{font-family:\0000375}}
-    header .top-header .header-info .login-container {
-      background-color: #0066a0;
-      border-bottom-left-radius: 8px;
-      border-bottom-right-radius: 8px;
+      vertical-align: top;
+      width: 146px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/dev\/mmdsmart\/MMDSmart\/style\.scss}line{font-family:\0000385}}
+  .wrapper .header .search-container {
+    background-color: #0066a0;
+    height: 48px;
+    padding-left: 20px;
+    padding-top: 5px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/dev\/mmdsmart\/MMDSmart\/style\.scss}line{font-family:\0000391}}
+    .wrapper .header .search-container .input-container {
+      display: inline-block;
+      width: 83%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/dev\/mmdsmart\/MMDSmart\/style\.scss}line{font-family:\0000395}}
+      .wrapper .header .search-container .input-container input, .wrapper .header .search-container .input-container button {
+        height: 38px;
+        vertical-align: top; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/dev\/mmdsmart\/MMDSmart\/style\.scss}line{font-family:\00003100}}
+      .wrapper .header .search-container .input-container input {
+        color: #717171;
+        font-size: 13px;
+        padding-left: 10px;
+        width: 23%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/dev\/mmdsmart\/MMDSmart\/style\.scss}line{font-family:\00003107}}
+      .wrapper .header .search-container .input-container input:nth-of-type(1) {
+        border-top-left-radius: 8px;
+        border-bottom-left-radius: 8px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/dev\/mmdsmart\/MMDSmart\/style\.scss}line{font-family:\00003112}}
+      .wrapper .header .search-container .input-container input:nth-of-type(4) {
+        margin-right: -4px;
+        width: 23.5%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/dev\/mmdsmart\/MMDSmart\/style\.scss}line{font-family:\00003117}}
+      .wrapper .header .search-container .input-container button {
+        border-top-right-radius: 8px;
+        border-bottom-right-radius: 8px;
+        cursor: pointer;
+        width: 6%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/dev\/mmdsmart\/MMDSmart\/style\.scss}line{font-family:\00003125}}
+    .wrapper .header .search-container #advanced-search-button {
+      background-image: url("advanced_search_idle.png");
+      border-radius: 8px;
       color: #fff;
       cursor: pointer;
-      display: inline-block;
-      font-size: 12px;
-      font-weight: bold;
-      margin-left: 20px;
-      padding: 15px 40px;
-      vertical-align: top; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/dev\/mmdsmart\/MMDSmart\/style\.scss}line{font-family:\0000391}}
-header .menu-header {
-  background: -webkit-gradient(linear, left top, right top, from(#bd53ad), to(#0066a0));
-  background: linear-gradient(to right, #bd53ad, #0066a0);
-  clear: both;
-  height: 60px;
-  text-align: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/dev\/mmdsmart\/MMDSmart\/style\.scss}line{font-family:\0000399}}
-  header .menu-header ul li {
-    color: #fefefe;
-    display: inline-block;
-    text-align: center;
-    text-transform: uppercase;
-    width: 12%; }
+      font-size: 14px;
+      height: 38px;
+      margin-left: 5px;
+      padding-left: 10px;
+      text-align: left;
+      text-transform: uppercase;
+      vertical-align: top;
+      width: 146px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/dev\/mmdsmart\/MMDSmart\/style\.scss}line{font-family:\00003142}}
+  .wrapper .main {
+    background: -webkit-gradient(linear, left top, right top, from(#ffffff), to(#e1e2e4));
+    background: linear-gradient(to right, #ffffff, #e1e2e4);
+    padding: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/dev\/mmdsmart\/MMDSmart\/style\.scss}line{font-family:\00003148}}
+    .wrapper .main .main-headers .headers {
+      background-color: #0066a0;
+      height: 35px;
+      line-height: 35px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/dev\/mmdsmart\/MMDSmart\/style\.scss}line{font-family:\00003153}}
+      .wrapper .main .main-headers .headers div {
+        color: #fff;
+        display: inline-block;
+        padding-left: 5px;
+        text-transform: uppercase;
+        width: 19.5%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/dev\/mmdsmart\/MMDSmart\/style\.scss}line{font-family:\00003162}}
+    .wrapper .main .main-headers .create-container {
+      height: 48px;
+      padding-top: 5px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/dev\/mmdsmart\/MMDSmart\/style\.scss}line{font-family:\00003166}}
+      .wrapper .main .main-headers .create-container .input-container {
+        display: inline-block;
+        width: 85.1%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/dev\/mmdsmart\/MMDSmart\/style\.scss}line{font-family:\00003170}}
+        .wrapper .main .main-headers .create-container .input-container input, .wrapper .main .main-headers .create-container .input-container button {
+          height: 38px;
+          vertical-align: top; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/dev\/mmdsmart\/MMDSmart\/style\.scss}line{font-family:\00003175}}
+        .wrapper .main .main-headers .create-container .input-container input {
+          border: 1px solid #0066a0;
+          border-radius: 8px;
+          color: #717171;
+          font-size: 13px;
+          padding-left: 10px;
+          width: 23%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/dev\/mmdsmart\/MMDSmart\/style\.scss}line{font-family:\00003184}}
+        .wrapper .main .main-headers .create-container .input-container input:nth-of-type(4) {
+          border-top-right-radius: 0;
+          border-bottom-right-radius: 0;
+          margin-right: -5px;
+          width: 23.5%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/dev\/mmdsmart\/MMDSmart\/style\.scss}line{font-family:\00003191}}
+        .wrapper .main .main-headers .create-container .input-container button {
+          background-image: url("create_rollover.png");
+          background-repeat: no-repeat;
+          border-top-right-radius: 8px;
+          border-bottom-right-radius: 8px;
+          cursor: pointer;
+          width: 6%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/dev\/mmdsmart\/MMDSmart\/style\.scss}line{font-family:\00003201}}
+      .wrapper .main .main-headers .create-container #advanced-create-button {
+        background-image: url("create_recipient_idle.png");
+        border-radius: 8px;
+        color: #fff;
+        cursor: pointer;
+        font-size: 14px;
+        height: 38px;
+        margin-left: 0px;
+        padding-left: 10px;
+        text-align: left;
+        text-transform: uppercase;
+        vertical-align: top;
+        width: 146px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/dev\/mmdsmart\/MMDSmart\/style\.scss}line{font-family:\00003219}}
+    .wrapper .main .select span {
+      color: #00669f;
+      font-size: 14px;
+      font-weight: bold; }

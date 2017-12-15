@@ -4,45 +4,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Default text page</title>
+    <title>Create Recipient List</title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <div class="top-header">
-            <div class="logo-container">
-                <img src="logo.png" alt="Logo" height="58px">
+    <div class="wrapper">
+        <div class="header">
+            <div class="header-title">
+                <h3>create recipient list</h3>
+                <img src="#" alt="close">
             </div>
-            <div class="header-info">
-                <div class="balance-container">
-                    <span>my balance</span>
-                    <span>$200.00</span>
+            <div class="import-container">
+                <input type="text" placeholder="Recipient List Name">
+                <button>import<br> recipients</button>
+            </div>
+            <div class="search-container">
+                <div class="input-container">
+                    <input type="text" placeholder="First Name">
+                    <input type="text" placeholder="Last Name">
+                    <input type="text" placeholder="Phone Number">
+                    <input type="text" placeholder="Country">
+                    <button></button>
                 </div>
-                <button>add credit</button>
-                <div class="login-container">
-                    <span>User Name</span>&#124;
-                    <span>Log Out</span>
-                </div>
+                <button id="advanced-search-button">advanced<br>search</button>
             </div>
         </div>
-        <div class="menu-header">
-            <ul>
-                <li>dashboard</li>
-                <li>send campaign</li>
-                <li>phone book</li>
-                <li>workspace</li>
-                <li>statistics</li>
-                <li>billing</li>
-                <li>my account</li>
-            </ul>
+        <div class="main">
+            <div class="main-headers">
+                <div class="headers">
+                    <div>first name</div>
+                    <div>last name</div>
+                    <div>phone number</div>
+                    <div>country</div>
+                </div>
+                <div class="create-container">
+                    <div class="input-container">
+                        <input type="text" placeholder="First Name">
+                        <input type="text" placeholder="Last Name">
+                        <input type="text" placeholder="Phone Number">
+                        <input type="text" placeholder="Country">
+                        <button></button>
+                    </div>
+                    <button id="advanced-create-button">advanced create recipient</button>
+                </div>
+            </div>
+            <div class="select">
+                <span>Select All</span>
+                <span>Select None</span>
+            </div>
+            <div class="table"></div>
+            <div class="footer">
+                <button>save list</button>
+            </div>
         </div>
-    </header>
-    <main>
-        <h3>Subtitle</h3>
-    </main>
-    <footer>
-
-    </footer>
+    </div>
 </body>
 </html>
