@@ -35,12 +35,13 @@ li{
                 font-size: 16px;
                 font-weight: bold;
                 text-transform: uppercase;
-                width: 92%;
+                width: 96.5%;
             }
 
             img{
                 color: #fff;
                 display: inline-block;
+                vertical-align: middle;
             }
         }
 
@@ -115,6 +116,9 @@ li{
                 }
 
                 button{
+                    background-image: url('search_idle.png');
+                    background-repeat: no-repeat;
+                    background-size: cover;
                     border-top-right-radius: 8px;
                     border-bottom-right-radius: 8px;
                     cursor: pointer;
@@ -216,11 +220,91 @@ li{
         }
 
         .select{
-            span{
+            margin-bottom: 10px;
+
+            .selected{
                 color: #00669f;
                 font-size: 14px;
                 font-weight: bold;
             }
+
+            .not-selected{
+                color: #808080;
+                font-size: 14px;
+                font-weight: bold;
+            }
+
+            a:first-child{
+                margin-right: 10px;
+            }
+
+            span{
+                margin-right: 10px;
+            }
         }
+
+        .table{
+            border-top: 4px solid #00669f;
+            border-bottom: 4px solid #00669f;
+            width: 1036px;
+
+            table{
+                width: 100%;
+            }
+
+            tr{
+                height: 43px;
+                line-height: 43px;
+
+                td{
+                    // border: 1px solid #333;
+                    display: inline-block;
+                    font-size: 14px;
+                }
+
+                td:nth-of-type(1){
+                    margin-right: 10px;
+                    padding-left: 5px;
+                }
+
+                td:not(:nth-of-type(1)){
+                    width: 18%;
+                }
+
+                td:nth-of-type(3), td:nth-of-type(4){
+                    width: 20%;
+                }
+
+                td:nth-of-type(4), td:nth-of-type(5){
+                    text-decoration: underline;
+                }
+
+                td:nth-of-type(5){
+                    width: 31%;
+                }
+
+                td:nth-of-type(6){
+                    text-align: right;
+                    width: 8%;
+                }
+
+                img{
+                    vertical-align: middle;
+                }
+
+                img:nth-of-type(1){
+                    margin-right: 8px;
+                }
+
+            }
+
+            tr:nth-of-type(2n){
+                background: linear-gradient(to right, #d3d4d8, #d3d4d8);
+            }
+        }
+    }
+
+    footer{
+        
     }
 }
