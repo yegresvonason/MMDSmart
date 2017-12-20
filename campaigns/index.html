@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Phone Book</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:600" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:800" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="top-header">
+            <div class="logo-container">
+                <img src="message_whiz_logo.png" alt="Logo">
+            </div>
+            <div class="header-info">
+                <div class="balance-container">
+                    <div class="divider">&#124;</div>
+                    <img src="info_icon.png" alt="">
+                    <span>my balance</span>
+                    <span id="balance">$200.00</span>
+                    <div class="divider">&#124;</div>
+                </div>
+                <button>
+                    <span>add credit</span>
+                    <img src="big_hand.png" alt="">
+                </button>
+                <div class="login-container">
+                    <a href="#">User Name</a>&#124;
+                    <a href="#">Log Out</a>
+                </div>
+            </div>
+        </div>
+        <div class="menu-header">
+            <ul>
+                <li>
+                    <img src="menu-dashboard.png" alt="img">
+                    <span>dashboard</span>
+                    <img src="menu_puple_triangle.png" alt="">
+                </li>
+                <li>
+                    <img src="menu-send.png" alt="img">
+                    <span>send campaign</span>
+                    <img src="menu_puple_triangle.png" alt="">
+                </li>
+                <li>
+                    <img src="menu_phone_book.png" alt="img">
+                    <span>phone book</span>
+                    <img src="menu_puple_triangle.png" alt="">
+                </li>
+                <li>
+                    <img src="menu_workspace.png" alt="img">
+                    <span>workspace</span>
+                    <img src="menu_puple_triangle.png" alt="">
+                </li>
+                <li>
+                    <img src="menu_statistics.png" alt="img">
+                    <span>statistics</span>
+                    <img src="menu_puple_triangle.png" alt="">
+                </li>
+                <li>
+                    <img src="menu_billing.png" alt="img">
+                    <span>billing</span>
+                    <img src="menu_puple_triangle.png" alt="">
+                </li>
+                <li>
+                    <img src="menu-account.png" alt="img">
+                    <span>my account</span>
+                    <img src="menu_puple_triangle.png" alt="">
+                </li>
+            </ul>
+        </div>
+        <div class="submenu-header">
+            <div class="div">
+                <img src="campaigns_chosen.png" alt="">
+                <a href="#">campaigns</a>
+            </div>
+            <div class="div">
+                <img src="broadcasts-chosen.png" alt="">
+                <a href="#">broadcasts</a>
+            </div>
+            <div class="div">
+                <img src="triggers-idle.png" alt="">
+                <a href="#">triggers</a>
+            </div>
+            <div class="div">
+                <img src="templates-idle.png" alt="">
+                <a href="#">templates</a>
+            </div>
+            <div class="div">
+                <img src="links-idle.png" alt="">
+                <a href="#">links</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="import-container">
+            <input type="text" placeholder="Campaign Name:">
+            <input type="text" placeholder="Start Date:">
+            <input type="text" placeholder="End Date:">
+            <input type="text" placeholder="Owner">
+            <a href="#">
+                <img src="search_idle.png" alt="">
+            </a>
+        </div>
+        <div class="table-container">
+            <h3>
+                <span>campaign name</span>
+                <span>start date</span>
+                <span>end date</span>
+                <span>owner</span>
+            </h3>
+            <div class="create-container">
+                <input type="text">
+                <input type="date">
+                <input type="date">
+                <input type="text">
+                <button>
+                    <span>create campaign</span>
+                    <img src="white-plus-for-buttons.png" alt="">
+                </button>
+            </div>
+            <div class="table-content">
+                <table>
+                    <tr>
+                        <td>Campaign 1</td>
+                        <td>01/01/2017</td>
+                        <td>12/12/2017</td>
+                        <td>Moshe Cohen</td>
+                        <td><a href="#"><img src="send_icon.png" alt=""></a></td>
+                        <td><a href="#"><img src="edit_icon.png" alt=""></a></td>
+                        <td><a href="#"><img src="statistics_icons.png" alt=""></a></td>
+                        <td><a href="#"><img src="remove_campaign_icon.png" alt=""></a></td>
+                    </tr>
+                    <tr>
+                        <td>Campaign 1</td>
+                        <td>01/01/2017</td>
+                        <td>12/12/2017</td>
+                        <td>Moshe Cohen</td>
+                        <td><a href="#"><img src="send_icon.png" alt=""></a></td>
+                        <td><a href="#"><img src="edit_icon.png" alt=""></a></td>
+                        <td><a href="#"><img src="statistics_icons.png" alt=""></a></td>
+                        <td><a href="#"><img src="remove_campaign_icon.png" alt=""></a></td>
+                    </tr>
+                    <tr>
+                        <td>Campaign 1</td>
+                        <td>01/01/2017</td>
+                        <td>12/12/2017</td>
+                        <td>Moshe Cohen</td>
+                        <td><a href="#"><img src="send_icon.png" alt=""></a></td>
+                        <td><a href="#"><img src="edit_icon.png" alt=""></a></td>
+                        <td><a href="#"><img src="statistics_icons.png" alt=""></a></td>
+                        <td><a href="#"><img src="remove_campaign_icon.png" alt=""></a></td>
+                    </tr>
+                    <tr>
+                        <td>Campaign 1</td>
+                        <td>01/01/2017</td>
+                        <td>12/12/2017</td>
+                        <td>Moshe Cohen</td>
+                        <td><a href="#"><img src="send_icon.png" alt=""></a></td>
+                        <td><a href="#"><img src="edit_icon.png" alt=""></a></td>
+                        <td><a href="#"><img src="statistics_icons.png" alt=""></a></td>
+                        <td><a href="#"><img src="remove_campaign_icon.png" alt=""></a></td>
+                    </tr>
+                    <tr>
+                        <td>Campaign 1</td>
+                        <td>01/01/2017</td>
+                        <td>12/12/2017</td>
+                        <td>Moshe Cohen</td>
+                        <td><a href="#"><img src="send_icon.png" alt=""></a></td>
+                        <td><a href="#"><img src="edit_icon.png" alt=""></a></td>
+                        <td><a href="#"><img src="statistics_icons.png" alt=""></a></td>
+                        <td><a href="#"><img src="remove_campaign_icon.png" alt=""></a></td>
+                    </tr>
+                    <tr>
+                        <td>Campaign 1</td>
+                        <td>01/01/2017</td>
+                        <td>12/12/2017</td>
+                        <td>Moshe Cohen</td>
+                        <td><a href="#"><img src="send_icon.png" alt=""></a></td>
+                        <td><a href="#"><img src="edit_icon.png" alt=""></a></td>
+                        <td><a href="#"><img src="statistics_icons.png" alt=""></a></td>
+                        <td><a href="#"><img src="remove_campaign_icon.png" alt=""></a></td>
+                    </tr>
+                    <tr>
+                        <td>Campaign 1</td>
+                        <td>01/01/2017</td>
+                        <td>12/12/2017</td>
+                        <td>Moshe Cohen</td>
+                        <td><a href="#"><img src="send_icon.png" alt=""></a></td>
+                        <td><a href="#"><img src="edit_icon.png" alt=""></a></td>
+                        <td><a href="#"><img src="statistics_icons.png" alt=""></a></td>
+                        <td><a href="#"><img src="remove_campaign_icon.png" alt=""></a></td>
+                    </tr>
+                    <tr>
+                        <td>Campaign 1</td>
+                        <td>01/01/2017</td>
+                        <td>12/12/2017</td>
+                        <td>Moshe Cohen</td>
+                        <td><a href="#"><img src="send_icon.png" alt=""></a></td>
+                        <td><a href="#"><img src="edit_icon.png" alt=""></a></td>
+                        <td><a href="#"><img src="statistics_icons.png" alt=""></a></td>
+                        <td><a href="#"><img src="remove_campaign_icon.png" alt=""></a></td>
+                    </tr>
+                    <tr>
+                        <td>Campaign 1</td>
+                        <td>01/01/2017</td>
+                        <td>12/12/2017</td>
+                        <td>Moshe Cohen</td>
+                        <td><a href="#"><img src="send_icon.png" alt=""></a></td>
+                        <td><a href="#"><img src="edit_icon.png" alt=""></a></td>
+                        <td><a href="#"><img src="statistics_icons.png" alt=""></a></td>
+                        <td><a href="#"><img src="remove_campaign_icon.png" alt=""></a></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <span>Copyright (c) MMD Smart 2016. All right reserved.</span>
+    </footer>
+</body>
+</html>

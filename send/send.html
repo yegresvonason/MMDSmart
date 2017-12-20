@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:600" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:800" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="send-style.css">
 </head>
 <body>
     <header>
@@ -25,7 +25,8 @@
                     <span id="balance">$200.00</span>
                     <div class="divider">&#124;</div>
                 </div>
-                <button>add credit
+                <button>
+                    <span>add credit</span>
                     <img src="big_hand.png" alt="">
                 </button>
                 <div class="login-container">
@@ -82,7 +83,10 @@
                     <div class="line-1">
                         <label for="campain">Campaign</label>
                         <input type="select" placeholder="Choose Campaign">
-                        <button>new campaign</button>
+                        <button>
+                            <span>new campaign</span>
+                            <img src="plus_icon.png" alt="">
+                        </button>
                     </div>
 
                     <div class="line-2">
@@ -101,14 +105,20 @@
                     <div class="line-4">
                         <label for="recipients">Choose Recipients</label>
                         <input type="select" placeholder="To">
-                        <button>new recipients list</button>
+                        <button>
+                            <span>new recipients list</span>
+                            <img src="plus_icon.png" alt="">
+                        </button>
                         <input type="select" placeholder="Unsubscribe list">
                     </div>
 
                     <div class="line-5">
                         <label for="sender">Choose Sender</label>
                         <input type="select" placeholder="From">
-                        <button>new senders list</button>
+                        <button>
+                            <span>new senders list</span>
+                            <img src="plus_icon.png" alt="">
+                        </button>
                     </div>
 
                     <div class="line-6">
@@ -125,13 +135,19 @@
                         <label for="trigger-select">Choose Trigger</label>
                         <input type="select" id="trigger-select" placeholder="Trigger">
                         <input type="text" placeholder="Delay in days">
-                        <button>new trigger</button>
+                        <button>
+                            <span>new trigger</span>
+                            <img src="plus_icon.png" alt="">
+                        </button>
                     </div>
 
                     <div class="line-8">
                         <label for="template">Template</label>
                         <input type="select" id="template" placeholder="Template Name">
-                        <button>new template</button>
+                        <button>
+                            <span>new template</span>
+                            <img src="plus_icon.png" alt="">
+                        </button>
                     </div>
 
                     <div class="line-9">
@@ -157,13 +173,64 @@
 
                     <div class="line-10">
                         <button>estimate</button>
-                        <button>submit</button>
+                        <button>submit
+                            <img src="v_submit_button.png" alt="">
+                        </button>
                     </div>
 
                 </form>
            </div>
            <div class="right-column">
-
+                <div class="picture-container">
+                    <img src="hand_send_picture.png" alt="">
+                </div>
+                <div class="table-container">
+                    <table>
+                        <tr>
+                            <th>country</th>
+                            <th>
+                                <span>messages</span>
+                                <span>per country</span>
+                            </th>
+                            <th>total price</th>
+                        </tr>
+                        <tr>
+                            <td>England</td>
+                            <td>5000</td>
+                            <td>25000</td>
+                        </tr>
+                        <tr>
+                            <td>Germany</td>
+                            <td>100</td>
+                            <td>200</td>
+                        </tr>
+                        <tr>
+                            <td>Italy</td>
+                            <td>21</td>
+                            <td>63</td>
+                        </tr>
+                        <tr>
+                            <td>Israel</td>
+                            <td>1000</td>
+                            <td>1000</td>
+                        </tr>
+                        <tr>
+                            <td>Chech Republic</td>
+                            <td>50</td>
+                            <td>100</td>
+                        </tr>
+                        <tr>
+                            <td>China</td>
+                            <td>80</td>
+                            <td>90</td>
+                        </tr>
+                        <tr id="total">
+                            <td>total</td>
+                            <td>6171</td>
+                            <td>26363</td>
+                        </tr>
+                    </table>
+                </div>
            </div>
     </main>
 

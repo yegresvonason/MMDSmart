@@ -1,0 +1,466 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/dev\/mmdsmart\/MMDSmart\/phone-book\/style\.scss}line{font-family:\000031}}
+* {
+  border: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/dev\/mmdsmart\/MMDSmart\/phone-book\/style\.scss}line{font-family:\000039}}
+a {
+  text-decoration: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/dev\/mmdsmart\/MMDSmart\/phone-book\/style\.scss}line{font-family:\0000313}}
+li {
+  list-style: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/dev\/mmdsmart\/MMDSmart\/phone-book\/style\.scss}line{font-family:\0000321}}
+::-webkit-scrollbar {
+  border: 1px solid #b3b3b3;
+  height: 13px;
+  width: 9px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/dev\/mmdsmart\/MMDSmart\/phone-book\/style\.scss}line{font-family:\0000327}}
+::-webkit-scrollbar-thumb {
+  background-color: #0066a0;
+  height: 13px;
+  width: 9px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/dev\/mmdsmart\/MMDSmart\/phone-book\/style\.scss}line{font-family:\0000335}}
+header .top-header {
+  background: #fff;
+  height: 63px;
+  padding: 0 60px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/dev\/mmdsmart\/MMDSmart\/phone-book\/style\.scss}line{font-family:\0000340}}
+  header .top-header .logo-container {
+    display: inline-block;
+    float: left; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/dev\/mmdsmart\/MMDSmart\/phone-book\/style\.scss}line{font-family:\0000344}}
+    header .top-header .logo-container img {
+      height: 40px;
+      margin-top: 13px;
+      width: 86px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/dev\/mmdsmart\/MMDSmart\/phone-book\/style\.scss}line{font-family:\0000351}}
+  header .top-header .header-info {
+    display: inline-block;
+    float: right;
+    position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/dev\/mmdsmart\/MMDSmart\/phone-book\/style\.scss}line{font-family:\0000356}}
+    header .top-header .header-info .balance-container {
+      cursor: pointer;
+      display: inline-block;
+      left: -250px;
+      padding: 7px 15px 0 15px;
+      position: absolute;
+      text-align: center;
+      top: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/dev\/mmdsmart\/MMDSmart\/phone-book\/style\.scss}line{font-family:\0000365}}
+      header .top-header .header-info .balance-container .divider {
+        color: #979797;
+        display: inline-block;
+        height: 26px;
+        position: absolute;
+        top: 10px;
+        width: 1px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/dev\/mmdsmart\/MMDSmart\/phone-book\/style\.scss}line{font-family:\0000374}}
+      header .top-header .header-info .balance-container div:nth-of-type(1) {
+        left: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/dev\/mmdsmart\/MMDSmart\/phone-book\/style\.scss}line{font-family:\0000378}}
+      header .top-header .header-info .balance-container div:nth-of-type(2) {
+        right: 4px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/dev\/mmdsmart\/MMDSmart\/phone-book\/style\.scss}line{font-family:\0000382}}
+      header .top-header .header-info .balance-container img {
+        height: 10px;
+        position: absolute;
+        right: 4px;
+        top: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/dev\/mmdsmart\/MMDSmart\/phone-book\/style\.scss}line{font-family:\0000389}}
+      header .top-header .header-info .balance-container span {
+        color: #000000;
+        display: block;
+        font-size: 9px;
+        margin-bottom: -4px;
+        text-transform: uppercase; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/dev\/mmdsmart\/MMDSmart\/phone-book\/style\.scss}line{font-family:\0000397}}
+      header .top-header .header-info .balance-container span#balance {
+        color: #eb009d;
+        font-size: 17px;
+        font-weight: 900; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/dev\/mmdsmart\/MMDSmart\/phone-book\/style\.scss}line{font-family:\00003104}}
+    header .top-header .header-info button {
+      background: -webkit-gradient(linear, left top, right top, from(#c252ac), to(#c352ac));
+      background: linear-gradient(to right, #c252ac, #c352ac);
+      border: 1px solid #952d44;
+      border-radius: 4px;
+      color: #fff;
+      cursor: pointer;
+      display: inline-block;
+      height: 33px;
+      left: -120px;
+      position: absolute;
+      text-align: left;
+      top: 12px;
+      width: 101px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/dev\/mmdsmart\/MMDSmart\/phone-book\/style\.scss}line{font-family:\00003118}}
+      header .top-header .header-info button span {
+        font-size: 11px;
+        font-weight: bold;
+        position: absolute;
+        text-transform: uppercase;
+        top: 8px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/dev\/mmdsmart\/MMDSmart\/phone-book\/style\.scss}line{font-family:\00003126}}
+      header .top-header .header-info button img {
+        position: absolute;
+        right: 2px;
+        top: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/dev\/mmdsmart\/MMDSmart\/phone-book\/style\.scss}line{font-family:\00003133}}
+    header .top-header .header-info .login-container {
+      background-color: #00669f;
+      border-bottom-left-radius: 4px;
+      border-bottom-right-radius: 4px;
+      color: #fff;
+      display: inline-block;
+      font-size: 11px;
+      font-weight: bold;
+      height: 47px;
+      margin-left: 20px;
+      padding: 15px 35px;
+      vertical-align: top;
+      width: 202px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/dev\/mmdsmart\/MMDSmart\/phone-book\/style\.scss}line{font-family:\00003147}}
+      header .top-header .header-info .login-container a {
+        color: #fff;
+        font-size: 11px;
+        font-weight: bold; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/dev\/mmdsmart\/MMDSmart\/phone-book\/style\.scss}line{font-family:\00003153}}
+      header .top-header .header-info .login-container a:first-child {
+        margin-right: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/dev\/mmdsmart\/MMDSmart\/phone-book\/style\.scss}line{font-family:\00003157}}
+      header .top-header .header-info .login-container a:last-child {
+        margin-left: 5px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/dev\/mmdsmart\/MMDSmart\/phone-book\/style\.scss}line{font-family:\00003164}}
+header .menu-header {
+  background: -webkit-gradient(linear, left top, right top, from(#bd53ad), to(#0066a0));
+  background: linear-gradient(to right, #bd53ad, #0066a0);
+  clear: both;
+  height: 73px;
+  text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/dev\/mmdsmart\/MMDSmart\/phone-book\/style\.scss}line{font-family:\00003170}}
+  header .menu-header ul {
+    height: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/dev\/mmdsmart\/MMDSmart\/phone-book\/style\.scss}line{font-family:\00003173}}
+    header .menu-header ul li {
+      color: #fefefe;
+      cursor: pointer;
+      display: inline-block;
+      height: 100%;
+      padding-top: 15px;
+      text-align: center;
+      text-transform: uppercase;
+      vertical-align: bottom;
+      width: 12%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/dev\/mmdsmart\/MMDSmart\/phone-book\/style\.scss}line{font-family:\00003184}}
+      header .menu-header ul li img {
+        display: block;
+        margin: 0 auto; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/dev\/mmdsmart\/MMDSmart\/phone-book\/style\.scss}line{font-family:\00003189}}
+      header .menu-header ul li img:nth-of-type(2) {
+        display: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/dev\/mmdsmart\/MMDSmart\/phone-book\/style\.scss}line{font-family:\00003193}}
+      header .menu-header ul li span {
+        display: block;
+        font-size: 16px;
+        margin-top: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/dev\/mmdsmart\/MMDSmart\/phone-book\/style\.scss}line{font-family:\00003199}}
+    header .menu-header ul li:hover {
+      background-color: #7c437b; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/dev\/mmdsmart\/MMDSmart\/phone-book\/style\.scss}line{font-family:\00003202}}
+      header .menu-header ul li:hover img:nth-of-type(2) {
+        display: block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/dev\/mmdsmart\/MMDSmart\/phone-book\/style\.scss}line{font-family:\00003206}}
+    header .menu-header ul li:nth-of-type(3) {
+      background-color: #7c437b; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/dev\/mmdsmart\/MMDSmart\/phone-book\/style\.scss}line{font-family:\00003209}}
+      header .menu-header ul li:nth-of-type(3) img:nth-of-type(2) {
+        display: block;
+        position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/dev\/mmdsmart\/MMDSmart\/phone-book\/style\.scss}line{font-family:\00003217}}
+header .submenu-header {
+  height: 73px;
+  margin: 0 auto;
+  text-align: center;
+  width: 60%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/dev\/mmdsmart\/MMDSmart\/phone-book\/style\.scss}line{font-family:\00003223}}
+  header .submenu-header .div {
+    display: inline-block;
+    height: 100%;
+    padding: 10px 40px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/dev\/mmdsmart\/MMDSmart\/phone-book\/style\.scss}line{font-family:\00003228}}
+    header .submenu-header .div img {
+      display: block;
+      margin: 0 auto; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/dev\/mmdsmart\/MMDSmart\/phone-book\/style\.scss}line{font-family:\00003233}}
+    header .submenu-header .div a {
+      color: #4d4d4d;
+      display: block;
+      text-transform: uppercase; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/dev\/mmdsmart\/MMDSmart\/phone-book\/style\.scss}line{font-family:\00003240}}
+  header .submenu-header .div:nth-of-type(2) {
+    background-color: #e2dae9; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/dev\/mmdsmart\/MMDSmart\/phone-book\/style\.scss}line{font-family:\00003242}}
+    header .submenu-header .div:nth-of-type(2) a {
+      color: #872c95; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/dev\/mmdsmart\/MMDSmart\/phone-book\/style\.scss}line{font-family:\00003247}}
+  header .submenu-header .div:hover {
+    background-color: #e2dae9; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/dev\/mmdsmart\/MMDSmart\/phone-book\/style\.scss}line{font-family:\00003256}}
+main .import-container {
+  background-color: #0066a0;
+  line-height: 48px;
+  height: 48px;
+  padding: 0 40px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/dev\/mmdsmart\/MMDSmart\/phone-book\/style\.scss}line{font-family:\00003262}}
+  main .import-container input {
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    color: #717171;
+    font-size: 14px;
+    font-weight: 400;
+    height: 38px;
+    padding-left: 10px;
+    width: 982px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/dev\/mmdsmart\/MMDSmart\/phone-book\/style\.scss}line{font-family:\00003273}}
+  main .import-container a img {
+    display: inline-block;
+    margin-left: -5px;
+    vertical-align: middle; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/dev\/mmdsmart\/MMDSmart\/phone-book\/style\.scss}line{font-family:\00003281}}
+  main .import-container button {
+    background: -webkit-gradient(linear, left top, right top, from(#c252ac), to(#7c59a8));
+    background: linear-gradient(to right, #c252ac, #7c59a8);
+    border: 1px solid #952d44;
+    border-radius: 4px;
+    cursor: pointer;
+    height: 38px;
+    margin-left: 8px;
+    position: relative;
+    vertical-align: middle;
+    width: 146px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/dev\/mmdsmart\/MMDSmart\/phone-book\/style\.scss}line{font-family:\00003292}}
+    main .import-container button span {
+      color: #fff;
+      display: inline-block;
+      font-size: 14px;
+      font-weight: 400;
+      left: 5px;
+      position: absolute;
+      text-align: left;
+      text-transform: uppercase;
+      top: -2px;
+      width: 80%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/dev\/mmdsmart\/MMDSmart\/phone-book\/style\.scss}line{font-family:\00003305}}
+    main .import-container button img {
+      position: absolute;
+      right: 6px;
+      top: 8px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/dev\/mmdsmart\/MMDSmart\/phone-book\/style\.scss}line{font-family:\00003313}}
+main .table-container {
+  background: -webkit-gradient(linear, left top, left bottom, from(#dcddde), to(#ffffff));
+  background: linear-gradient(to bottom, #dcddde, #ffffff);
+  padding: 20px 40px 30px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/dev\/mmdsmart\/MMDSmart\/phone-book\/style\.scss}line{font-family:\00003317}}
+  main .table-container h3 {
+    background-color: #00669f;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    height: 35px;
+    line-height: 35px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    text-transform: uppercase;
+    width: 1187px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/dev\/mmdsmart\/MMDSmart\/phone-book\/style\.scss}line{font-family:\00003332}}
+  main .table-container .create-container input {
+    border: 1px solid #00669f;
+    border-radius: 4px;
+    color: #717171;
+    font-size: 14px;
+    font-weight: 400;
+    height: 38px;
+    padding-left: 10px;
+    width: 1030px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/dev\/mmdsmart\/MMDSmart\/phone-book\/style\.scss}line{font-family:\00003343}}
+  main .table-container .create-container button {
+    background: -webkit-gradient(linear, left top, right top, from(#c252ac), to(#7c59a8));
+    background: linear-gradient(to right, #c252ac, #7c59a8);
+    border: 1px solid #952d44;
+    border-radius: 4px;
+    cursor: pointer;
+    height: 38px;
+    margin-left: 8px;
+    position: relative;
+    vertical-align: middle;
+    width: 146px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/dev\/mmdsmart\/MMDSmart\/phone-book\/style\.scss}line{font-family:\00003354}}
+    main .table-container .create-container button span {
+      color: #fff;
+      display: inline-block;
+      font-size: 14px;
+      font-weight: 400;
+      left: 5px;
+      position: absolute;
+      text-align: left;
+      text-transform: uppercase;
+      top: -2px;
+      width: 80%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/dev\/mmdsmart\/MMDSmart\/phone-book\/style\.scss}line{font-family:\00003367}}
+    main .table-container .create-container button img {
+      position: absolute;
+      right: 6px;
+      top: 8px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/dev\/mmdsmart\/MMDSmart\/phone-book\/style\.scss}line{font-family:\00003375}}
+  main .table-container .table-content {
+    margin-top: 8px;
+    width: 1187px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/dev\/mmdsmart\/MMDSmart\/phone-book\/style\.scss}line{font-family:\00003379}}
+    main .table-container .table-content table {
+      border-collapse: collapse;
+      width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/dev\/mmdsmart\/MMDSmart\/phone-book\/style\.scss}line{font-family:\00003383}}
+      main .table-container .table-content table tr {
+        height: 43px;
+        width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/dev\/mmdsmart\/MMDSmart\/phone-book\/style\.scss}line{font-family:\00003387}}
+        main .table-container .table-content table tr td {
+          color: #4d4d4d;
+          font-size: 14px;
+          font-weight: 400; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/dev\/mmdsmart\/MMDSmart\/phone-book\/style\.scss}line{font-family:\00003394}}
+      main .table-container .table-content table tr:nth-of-type(2n-1) {
+        background-color: #d3d4d7; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/dev\/mmdsmart\/MMDSmart\/phone-book\/style\.scss}line{font-family:\00003398}}
+      main .table-container .table-content table td:nth-of-type(1) {
+        padding-left: 20px;
+        width: 90%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/dev\/mmdsmart\/MMDSmart\/phone-book\/style\.scss}line{font-family:\00003403}}
+      main .table-container .table-content table td:not(:nth-of-type(1)) {
+        text-align: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/dev\/mmdsmart\/MMDSmart\/phone-book\/style\.scss}line{font-family:\00003413}}
+footer {
+  background-color: #0066a0;
+  bottom: 0;
+  height: 25px;
+  padding-left: 80px;
+  position: fixed;
+  width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/dev\/mmdsmart\/MMDSmart\/phone-book\/style\.scss}line{font-family:\00003421}}
+  footer span {
+    color: #fff;
+    font-size: 9px; }
+
+@media (max-width: 1267px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/dev\/mmdsmart\/MMDSmart\/phone-book\/style\.scss}line{font-family:\00003430}}
+  header .submenu-header {
+    width: 70%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/dev\/mmdsmart\/MMDSmart\/phone-book\/style\.scss}line{font-family:\00003437}}
+  main .import-container input {
+    width: 800px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/dev\/mmdsmart\/MMDSmart\/phone-book\/style\.scss}line{font-family:\00003442}}
+  main .table-container h3 {
+    width: 848px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/dev\/mmdsmart\/MMDSmart\/phone-book\/style\.scss}line{font-family:\00003446}}
+  main .table-container .create-container input {
+    width: 848px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/dev\/mmdsmart\/MMDSmart\/phone-book\/style\.scss}line{font-family:\00003450}}
+  main .table-container .table-content {
+    width: 1006px; } }
+@media (max-width: 1085px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/dev\/mmdsmart\/MMDSmart\/phone-book\/style\.scss}line{font-family:\00003459}}
+  header .submenu-header {
+    width: 90%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/dev\/mmdsmart\/MMDSmart\/phone-book\/style\.scss}line{font-family:\00003466}}
+  main .import-container input {
+    width: 600px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/dev\/mmdsmart\/MMDSmart\/phone-book\/style\.scss}line{font-family:\00003471}}
+  main .table-container h3 {
+    width: 648px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/dev\/mmdsmart\/MMDSmart\/phone-book\/style\.scss}line{font-family:\00003475}}
+  main .table-container .create-container input {
+    width: 646px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/dev\/mmdsmart\/MMDSmart\/phone-book\/style\.scss}line{font-family:\00003479}}
+  main .table-container .table-content {
+    width: 806px; } }
+@media (max-width: 1067px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/dev\/mmdsmart\/MMDSmart\/phone-book\/style\.scss}line{font-family:\00003487}}
+  .menu-header {
+    min-height: 180px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/dev\/mmdsmart\/MMDSmart\/phone-book\/style\.scss}line{font-family:\00003490}}
+    .menu-header ul {
+      height: 50% !important; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/dev\/mmdsmart\/MMDSmart\/phone-book\/style\.scss}line{font-family:\00003493}}
+      .menu-header ul li {
+        height: 100% !important;
+        width: 20% !important; } }
+@media (max-width: 885px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/dev\/mmdsmart\/MMDSmart\/phone-book\/style\.scss}line{font-family:\00003503}}
+  header .submenu-header {
+    width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/dev\/mmdsmart\/MMDSmart\/phone-book\/style\.scss}line{font-family:\00003505}}
+    header .submenu-header div {
+      padding-left: 10px;
+      padding-right: 10px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/dev\/mmdsmart\/MMDSmart\/phone-book\/style\.scss}line{font-family:\00003514}}
+  main .import-container input {
+    width: 450px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/dev\/mmdsmart\/MMDSmart\/phone-book\/style\.scss}line{font-family:\00003519}}
+  main .table-container h3 {
+    width: 498px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/dev\/mmdsmart\/MMDSmart\/phone-book\/style\.scss}line{font-family:\00003523}}
+  main .table-container .create-container input {
+    width: 498px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/dev\/mmdsmart\/MMDSmart\/phone-book\/style\.scss}line{font-family:\00003527}}
+  main .table-container .table-content {
+    width: 656px; } }
+@media (max-width: 719px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/dev\/mmdsmart\/MMDSmart\/phone-book\/style\.scss}line{font-family:\00003535}}
+  .top-header {
+    height: 120px !important;
+    padding-left: 5px !important; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/dev\/mmdsmart\/MMDSmart\/phone-book\/style\.scss}line{font-family:\00003539}}
+    .top-header .logo-container {
+      display: block !important; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/dev\/mmdsmart\/MMDSmart\/phone-book\/style\.scss}line{font-family:\00003543}}
+    .top-header .header-info {
+      display: block !important; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/dev\/mmdsmart\/MMDSmart\/phone-book\/style\.scss}line{font-family:\00003546}}
+      .top-header .header-info .balance-container {
+        position: absolute !important;
+        top: 70px !important; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/dev\/mmdsmart\/MMDSmart\/phone-book\/style\.scss}line{font-family:\00003551}}
+      .top-header .header-info button {
+        position: absolute !important;
+        top: 70px !important; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/dev\/mmdsmart\/MMDSmart\/phone-book\/style\.scss}line{font-family:\00003556}}
+      .top-header .header-info .login-container {
+        left: -180px;
+        position: absolute !important;
+        width: 200px !important; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/dev\/mmdsmart\/MMDSmart\/phone-book\/style\.scss}line{font-family:\00003564}}
+  .menu-header {
+    min-height: 220px !important; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/dev\/mmdsmart\/MMDSmart\/phone-book\/style\.scss}line{font-family:\00003567}}
+    .menu-header ul {
+      height: 100% !important; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/dev\/mmdsmart\/MMDSmart\/phone-book\/style\.scss}line{font-family:\00003570}}
+      .menu-header ul li {
+        height: 33% !important;
+        margin-right: 10px !important;
+        width: 25% !important; } }

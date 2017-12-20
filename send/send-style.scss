@@ -102,25 +102,32 @@ header{
             }
 
             button{
-                // background-image: url('add_balance_big_button_rollover.png');
                 background: linear-gradient(to right, #c252ac, #c352ac);
-                background-repeat: no-repeat;
-                background-size: contain;
                 border: 1px solid #952d44;
                 border-radius: 4px;
                 color: #fff;
                 cursor: pointer;
                 display: inline-block;
-                font-size: 11px;
-                font-weight: bold;
                 height: 33px;
                 left: -120px;
-                padding-left: 4px;
                 position: absolute;
                 text-align: left;
-                text-transform: uppercase;
                 top: 12px;
                 width: 101px;
+
+                span{
+                    font-size: 11px;
+                    font-weight: bold;
+                    position: absolute;
+                    text-transform: uppercase;
+                    top: 8px;
+                }
+
+                img{
+                    position: absolute;
+                    right: 2px;
+                    top: 0;
+                }
             }
 
             .login-container{
@@ -128,7 +135,6 @@ header{
                 border-bottom-left-radius: 4px;
                 border-bottom-right-radius: 4px;
                 color: #fff;
-                // cursor: pointer;
                 display: inline-block;
                 font-size: 11px;
                 font-weight: bold;
@@ -145,7 +151,7 @@ header{
                 }
 
                 a:first-child{
-                    margin-right: 15px;
+                    margin-right: 10px;
                 }
 
                 a:last-child{
@@ -202,13 +208,14 @@ header{
 }
 
 main{
+    height: 800px; // исправить это
 
     .left-column{
-        border: 1px solid #333;
         display: inline-block;
         margin-top: 30px;
-        margin-left: 80px;
-        width: 60%;
+        margin-left: 60px;
+        margin-right: 80px;
+        width: 45%;
 
         form{
 
@@ -254,7 +261,20 @@ main{
                 }
 
                 button{
+                    position: relative;
+                    vertical-align: middle;
 
+                    span{
+                        display: inline-block;
+                        padding-left: 5px;
+                        width: 60px;
+                    }
+
+                    img{
+                        position: absolute;
+                        right: 5px;
+                        top: 5px;
+                    }
                 }
             }
 
@@ -318,6 +338,23 @@ main{
                     margin-top: 10px;
                     margin-left: 168px;
                 }
+
+                button{
+                    position: relative;
+                    vertical-align: middle;
+
+                    span{
+                        display: inline-block;
+                        padding-left: 5px;
+                        width: 90px;
+                    }
+
+                    img{
+                        position: absolute;
+                        right: 5px;
+                        top: 5px;
+                    }
+                }
             }
 
             .line-5{
@@ -334,6 +371,23 @@ main{
 
                 input{
                     margin-right: 10px;
+                }
+
+                button{
+                    position: relative;
+                    vertical-align: middle;
+
+                    span{
+                        display: inline-block;
+                        padding-left: 5px;
+                        width: 90px;
+                    }
+
+                    img{
+                        position: absolute;
+                        right: 5px;
+                        top: 5px;
+                    }
                 }
             }
 
@@ -382,6 +436,23 @@ main{
                     margin-right: 10px;
                     width: 190px;
                 }
+
+                button{
+                    position: relative;
+                    vertical-align: middle;
+
+                    span{
+                        display: inline-block;
+                        padding-left: 5px;
+                        width: 70px;
+                    }
+
+                    img{
+                        position: absolute;
+                        right: 5px;
+                        top: 5px;
+                    }
+                }
             }
 
             .line-8{
@@ -399,10 +470,27 @@ main{
                 input{
                     margin-right: 10px;
                 }
+
+                button{
+                    position: relative;
+                    vertical-align: middle;
+
+                    span{
+                        display: inline-block;
+                        padding-left: 5px;
+                        width: 70px;
+                    }
+
+                    img{
+                        position: absolute;
+                        right: 5px;
+                        top: 5px;
+                    }
+                }
             }
 
             .line-9{
-                margin-bottom: 30px;
+                margin-bottom: 20px;
                 position: relative;
 
                 label{
@@ -476,6 +564,8 @@ main{
 
             .line-10{
                 margin-bottom: 20px;
+                text-align: right;
+                width: 680px;
 
                 button{
                     font-size: 15px;
@@ -493,7 +583,17 @@ main{
 
                 button:last-child{
                     background: linear-gradient(to right, #c252ac, #7e59a7);
+                    border: 1px solid #7e59a7;
                     color: #ffffff;
+                    padding-left: 10px;
+                    position: relative;
+                    text-align: left;
+
+                    img{
+                        right: 10px;
+                        position: absolute;
+                        top: 2px;
+                    }
                 }
             }
         }
@@ -501,7 +601,100 @@ main{
     }
 
     .right-column{
+        display: inline-block;
+        margin-top: 30px;
+        vertical-align: top;
+        width: 30%;
 
+        .picture-container{
+            margin-bottom: 10px;
+        }
+
+        .table-container{
+            border-bottom: 2px solid #00669f;
+            width: 301px;
+
+            table{
+                border-collapse: collapse;
+                width: 100%;
+
+                tr{
+                    height: 23px;
+                    width: 100%;
+
+                    td{
+                        font-size: 9px;
+                        font-weight: 400;
+                    }
+
+                    td:nth-of-type(2){
+                        padding-left: 20px;
+                    }
+
+                    td:nth-of-type(3){
+                        padding-left: 10px;
+                        text-align: left;
+                    }
+                }
+
+                #total{
+
+                    td{
+                        color: #00669f;
+                        font-size: 10px;
+                        font-weight: 700;
+                        text-transform: uppercase;
+                    }
+                }
+
+                tr:nth-of-type(2n+1){
+                    background-color: #d3d4d7;
+                }
+
+                tr:nth-of-type(1){
+                    background-color: #00669f;
+                    border-radius: 3px;
+                    color: #fff;
+                    font-size: 10px;
+                    font-weight: 700;
+                    height: 37px;
+                    text-transform: uppercase;
+
+                    th:nth-of-type(1){
+                        border-top-left-radius: 3px;
+                        border-bottom-left-radius: 3px;
+                        padding-left: 10px;
+                        text-align: left;
+                        width: 40%;
+                    }
+
+                    th:nth-of-type(2){
+                        text-align: left;
+                        width: 40%;
+
+                        span:nth-of-type(1){
+                            display: inline-block;
+                            width: 100%;
+                        }
+
+                        span:nth-of-type(2){
+                            display: inline-block;
+                            font-size: 8px;
+                            font-weight: 600;
+                            width: 100%;
+                        }
+                    }
+
+                    th:nth-of-type(3){
+                        border-top-right-radius: 3px;
+                        border-bottom-right-radius: 3px;
+                        padding-left: 10px;
+                        text-align: left;
+                        width: 20%;
+                    }
+                }
+            }
+        }
     }
 }
 
@@ -519,62 +712,25 @@ footer{
     }
 }
 
-@media(max-width: 1470px){
+@media(max-width: 1510px){
     main{
-        padding: 58px 20px 0 30px;
-
-        .account-container{
-            padding-right: 30px;
-            width: auto;
-        }
-
-        .account-data{
-            margin-left: 20px;
-
-            .string1 div, .string2 div, .string3 div{
-                width: 220px !important;
-            }
-
-            .string3 div:nth-of-type(3){
-                width: 320px !important;
-            }
-
-            .string1 div:nth-of-type(2), .string2 div:nth-of-type(2), .string3 div:nth-of-type(2){
-                left: 375px;
-            }
-    
-            .string1 div:nth-of-type(3), .string2 div:nth-of-type(3), .string3 div:nth-of-type(3){
-                left: 750px;
-            }
-        }
-    }
-
-    .edit-container{
-
-        .vertical-line{
-            width: 140px;
-        }
-
-        .account-data{
-            margin-left: 20px;
-
-            .string1 div, .string2 div, .string3 div{
-                width: 220px !important;
-            }
-
-            .string3 div:nth-of-type(3){
-                width: 320px !important;
-            }
-
-            .string1 div:nth-of-type(3), .string2 div:nth-of-type(3), .string3 div:nth-of-type(3){
-                left: 750px;
-            }
+        .left-column{
+            margin-right: 20px;
+            width: 60%;
         }
     }
 }
 
 @media(max-width: 1280px){
-    
+    main{
+        .left-column{
+            margin: 0;
+            margin-top: 30px;
+            margin-left: 60px;
+            margin-right: 20px;
+            width: 60%;
+        }
+    }
 }
 
 @media(max-width: 1067px){
@@ -588,6 +744,22 @@ footer{
                 height: 100% !important;
                 width: 20% !important;
             }
+        }
+    }
+
+    main{
+        height: 1200px;
+
+        .left-column{
+            display: block;
+            margin: 30px auto;
+            width: 90%;
+        }
+
+        .right-column{
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 30px;
         }
     }
 }
