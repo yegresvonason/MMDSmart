@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Billing</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:600" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:800" rel="stylesheet">
+    <link rel="stylesheet" href="css/billing-style.css">
+    <link rel='shortcut icon' type='image/x-icon' href='favicon.png' />
+</head>
+<body>
+    <header>
+        <div class="top-header">
+            <div class="logo-container">
+                <img src="resources/billing/message_whiz_logo.png" alt="Logo">
+            </div>
+            <div class="header-info">
+                <div class="balance-container">
+                    <div class="divider">&#124;</div>
+                    <img src="resources/billing/info_icon.png" alt="">
+                    <span>my balance</span>
+                    <span id="balance">$200.00</span>
+                    <div class="divider">&#124;</div>
+                </div>
+                <button>
+                    <span>add credit</span>
+                    <img src="resources/billing/big_hand.png" alt="">
+                </button>
+                <div class="login-container">
+                    <a href="#">User Name</a>&#124;
+                    <a href="#">Log Out</a>
+                </div>
+            </div>
+        </div>
+        <div class="menu-header">
+            <ul>
+                <li>
+                    <a href="index.html">
+                        <img src="resources/billing/menu-dashboard.png" alt="img">
+                        <span>dashboard</span>
+                    </a>
+                    <img src="resources/billing/menu_puple_triangle.png" alt="">
+                </li>
+                <li>
+                    <a href="send-campaign.html">
+                        <img src="resources/billing/menu-send.png" alt="img">
+                        <span>send campaign</span>
+                    </a>
+                    <img src="resources/billing/menu_puple_triangle.png" alt="">
+                </li>
+                <li>
+                    <a href="phone-book.html">
+                        <img src="resources/billing/menu_phone_book.png" alt="img">
+                        <span>phone book</span>
+                    </a>
+                    <img src="resources/billing/menu_puple_triangle.png" alt="">
+                </li>
+                <li>
+                    <a href="broadcasts.html">
+                        <img src="resources/billing/menu_workspace.png" alt="img">
+                        <span>workspace</span>
+                    </a>
+                    <img src="resources/billing/menu_puple_triangle.png" alt="">
+                </li>
+                <li>
+                    <a href="send.html">
+                        <img src="resources/billing/menu_statistics.png" alt="img">
+                        <span>statistics</span>
+                    </a>
+                    <img src="resources/billing/menu_puple_triangle.png" alt="">
+                </li>
+                <li>
+                    <a href="billing.html">
+                        <img src="resources/billing/menu_billing.png" alt="img">
+                        <span>billing</span>
+                    </a>
+                    <img src="resources/billing/menu_puple_triangle.png" alt="">
+                </li>
+                <li>
+                    <a href="my-account.html">
+                        <img src="resources/billing/menu-account.png" alt="img">
+                        <span>my account</span>
+                    </a>
+                    <img src="resources/billing/menu_puple_triangle.png" alt="">
+                </li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <div class="left">
+            <div class="invoices-container">
+                <div class="invoices-header">
+                    <h3>invoices</h3>
+                    <span>From</span>
+                    <input type="date" placeholder="">
+                    <span>To</span>
+                    <input type="date">
+                </div>
+                <div class="invoices-content">
+                    <table>
+                        <tr>
+                            <th>sum(usd)</th>
+                            <th>date</th>
+                            <th></th>
+                        </tr>
+                        <tr>
+                            <td>200 usd</td>
+                            <td>22/11/2017</td>
+                            <td>
+                                <img src="resources/billing/download_icon.png" alt="">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>300 usd</td>
+                            <td>15/11/2017</td>
+                            <td>
+                                <img src="resources/billing/download_icon.png" alt="">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>300 usd</td>
+                            <td>15/11/2017</td>
+                            <td>
+                                <img src="resources/billing/download_icon.png" alt="">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>300 usd</td>
+                            <td>15/11/2017</td>
+                            <td>
+                                <img src="resources/billing/download_icon.png" alt="">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>300 usd</td>
+                            <td>15/11/2017</td>
+                            <td>
+                                <img src="resources/billing/download_icon.png" alt="">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>500 usd</td>
+                            <td>15/11/2017</td>
+                            <td>
+                                <img src="resources/billing/download_icon.png" alt="">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>450 usd</td>
+                            <td>15/11/2017</td>
+                            <td>
+                                <img src="resources/billing/download_icon.png" alt="">
+                            </td>
+                        </tr>
+                        
+                    </table>
+                </div>
+            </div>
+            <div class="payments-container">
+                <div class="payments-header">
+                    <h3>payments</h3>
+                    <span>From</span>
+                    <input type="date" placeholder="">
+                    <span>To</span>
+                    <input type="date">
+                </div>
+                <div class="payments-content">
+                    <table>
+                        <tr>
+                            <th>sum(usd)</th>
+                            <th>date</th>
+                        </tr>
+                        <tr>
+                            <td>200 usd</td>
+                            <td>22/11/2017</td>
+                        </tr>
+                        <tr>
+                            <td>300 usd</td>
+                            <td>15/11/2017</td>
+                        </tr>
+                        <tr>
+                            <td>300 usd</td>
+                            <td>15/11/2017</td>
+                        </tr>
+                        <tr>
+                            <td>300 usd</td>
+                            <td>15/11/2017</td>
+                        </tr>
+                        <tr>
+                            <td>300 usd</td>
+                            <td>15/11/2017</td>
+                        </tr>
+                        <tr>
+                            <td>400 usd</td>
+                            <td>15/11/2017</td>
+                        </tr>
+                        <tr>
+                            <td>700 usd</td>
+                            <td>15/11/2017</td>
+                        </tr>
+                        <tr>
+                            <td>300 usd</td>
+                            <td>15/11/2017</td>
+                        </tr>
+                        
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <div class="credit-container">
+                <h2>add credit</h2>
+                <div class="credit-content">
+                    <img src="resources/billing/billing_hand_picture.png" alt="">
+                    <h3>my balance</h3>
+                    <span>$1250</span>
+                    <div class="inputs">
+                        <label for="top-up-balance">Top Up Balance</label>
+                        <label for="currency">Currency</label><br>
+                        <input type="text" id="top-up-balance">
+                        <input type="text" id="currency" placeholder="USD">
+                    </div>
+                    <div class="cards">
+                        <input type="radio" id="visa-master" name="credit" value="card">
+                        <label for="visa-master">VISA</label>
+                        <input type="radio" id="bitcoin" name="credit" value="bitcoin">
+                        <label for="bitcoin">Bitcoin</label>
+                        <input type="radio" id="paypal" name="credit" value="paypal">
+                        <label for="paypal">PayPal</label>
+                    </div>
+                    <input type="checkbox" id="agreement">
+                    <label for="agreement" id="agreement-label">I agree to terms and conditions</label>
+                    <button>add credit
+                        <img src="resources/billing/payment_button_icon.png" alt="">
+                    </button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <span>Copyright (c) MMD Smart 2016. All right reserved.</span>
+    </footer>
+</body>
+</html>

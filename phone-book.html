@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Phone Book</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:600" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:800" rel="stylesheet">
+    <link rel="stylesheet" href="css/phone-book-style.css">
+    <link rel='shortcut icon' type='image/x-icon' href='favicon.png' />
+    <script src="scripts/create-recipients-list.js"></script>
+</head>
+<body>
+    <header>
+        <div class="top-header">
+            <div class="logo-container">
+                <img src="resources/phone-book/message_whiz_logo.png" alt="Logo">
+            </div>
+            <div class="header-info">
+                <div class="balance-container">
+                    <div class="divider">&#124;</div>
+                    <img src="resources/phone-book/info_icon.png" alt="">
+                    <span>my balance</span>
+                    <span id="balance">$200.00</span>
+                    <div class="divider">&#124;</div>
+                </div>
+                <button>
+                    <span>add credit</span>
+                    <img src="resources/phone-book/big_hand.png" alt="">
+                </button>
+                <div class="login-container">
+                    <a href="#">User Name</a>&#124;
+                    <a href="#">Log Out</a>
+                </div>
+            </div>
+        </div>
+        <div class="menu-header">
+            <ul>
+                <li>
+                    <a href="index.html">
+                        <img src="resources/phone-book/menu-dashboard.png" alt="img">
+                        <span>dashboard</span>
+                    </a>
+                    <img src="resources/phone-book/menu_puple_triangle.png" alt="">
+                </li>
+                <li>
+                    <a href="send-campaign.html">
+                        <img src="resources/phone-book/menu-send.png" alt="img">
+                        <span>send campaign</span>
+                    </a>
+                    <img src="resources/phone-book/menu_puple_triangle.png" alt="">
+                </li>
+                <li>
+                    <a href="phone-book.html">
+                        <img src="resources/phone-book/menu_phone_book.png" alt="img">
+                        <span>phone book</span>
+                    </a>
+                    <img src="resources/phone-book/menu_puple_triangle.png" alt="">
+                </li>
+                <li>
+                    <a href="broadcasts.html">
+                        <img src="resources/phone-book/menu_workspace.png" alt="img">
+                        <span>workspace</span>
+                    </a>
+                    <img src="resources/phone-book/menu_puple_triangle.png" alt="">
+                </li>
+                <li>
+                    <a href="send.html">
+                        <img src="resources/phone-book/menu_statistics.png" alt="img">
+                        <span>statistics</span>
+                    </a>
+                    <img src="resources/phone-book/menu_puple_triangle.png" alt="">
+                </li>
+                <li>
+                    <a href="billing.html">
+                        <img src="resources/phone-book/menu_billing.png" alt="img">
+                        <span>billing</span>
+                    </a>
+                    <img src="resources/phone-book/menu_puple_triangle.png" alt="">
+                </li>
+                <li>
+                    <a href="my-account.html">
+                        <img src="resources/phone-book/menu-account.png" alt="img">
+                        <span>my account</span>
+                    </a>
+                    <img src="resources/phone-book/menu_puple_triangle.png" alt="">
+                </li>
+            </ul>
+        </div>
+        <div class="submenu-header">
+            <div class="div">
+                <img src="resources/phone-book/recipients_idle.png" alt="">
+                <a href="phone-book-recipients.html">recipients</a>
+            </div>
+            <div class="div">
+                <img src="resources/phone-book/recipient_list_chosen.png" alt="">
+                <a href="#">recipients list</a>
+            </div>
+            <div class="div">
+                <img src="resources/phone-book/senders_idle.png" alt="">
+                <a href="#">senders</a>
+            </div>
+            <div class="div">
+                <img src="resources/phone-book/unsubscribe_idle.png" alt="">
+                <a href="#">unsubscribe list</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="import-container">
+            <input type="text" placeholder="Recipient List Name">
+            <a href="#">
+                <img src="resources/phone-book/search_idle.png" alt="">
+            </a>
+            <button>
+                <span>import recipient list</span>
+                <img src="resources/phone-book/white-arrow-for-buttons.png" alt="">
+            </button>
+        </div>
+        <div class="table-container">
+            <h3>my recipients lists</h3>
+            <div class="create-container">
+                <input type="text">
+                <button id="create-recipient-button">
+                    <span>create recipient list</span>
+                    <img src="resources/phone-book/white-plus-for-buttons.png" alt="">
+                </button>
+            </div>
+            <div id="create-recipient-area">
+                
+            </div>
+            <div class="table-content">
+                <table>
+                    <tr>
+                        <td>List Name 1</td>
+                        <td><a href="#"><img src="resources/phone-book/edit_icon.png" alt=""></a></td>
+                        <td><a href="#"><img src="resources/phone-book/download_recipients_list_icon.png" alt=""></a></td>
+                        <td><a href="#"><img src="resources/phone-book/remove_campaign_icon.png" alt=""></a></td>
+                    </tr>
+                    <tr>
+                        <td>List Name 2</td>
+                        <td><a href="#"><img src="resources/phone-book/edit_icon.png" alt=""></a></td>
+                        <td><a href="#"><img src="resources/phone-book/download_recipients_list_icon.png" alt=""></a></td>
+                        <td><a href="#"><img src="resources/phone-book/remove_campaign_icon.png" alt=""></a></td>
+                    </tr>
+                    <tr>
+                        <td>List Name Longer 3</td>
+                        <td><a href="#"><img src="resources/phone-book/edit_icon.png" alt=""></a></td>
+                        <td><a href="#"><img src="resources/phone-book/download_recipients_list_icon.png" alt=""></a></td>
+                        <td><a href="#"><img src="resources/phone-book/remove_campaign_icon.png" alt=""></a></td>
+                    </tr>
+                    <tr>
+                        <td>List 4</td>
+                        <td><a href="#"><img src="resources/phone-book/edit_icon.png" alt=""></a></td>
+                        <td><a href="#"><img src="resources/phone-book/download_recipients_list_icon.png" alt=""></a></td>
+                        <td><a href="#"><img src="resources/phone-book/remove_campaign_icon.png" alt=""></a></td>
+                    </tr>
+                    <tr>
+                        <td>List Name Longer 3</td>
+                        <td><a href="#"><img src="resources/phone-book/edit_icon.png" alt=""></a></td>
+                        <td><a href="#"><img src="resources/phone-book/download_recipients_list_icon.png" alt=""></a></td>
+                        <td><a href="#"><img src="resources/phone-book/remove_campaign_icon.png" alt=""></a></td>
+                    </tr>
+                    <tr>
+                        <td>List Name Longer 3</td>
+                        <td><a href="#"><img src="resources/phone-book/edit_icon.png" alt=""></a></td>
+                        <td><a href="#"><img src="resources/phone-book/download_recipients_list_icon.png" alt=""></a></td>
+                        <td><a href="#"><img src="resources/phone-book/remove_campaign_icon.png" alt=""></a></td>
+                    </tr>
+                    <tr>
+                        <td>List Name Longer 3</td>
+                        <td><a href="#"><img src="resources/phone-book/edit_icon.png" alt=""></a></td>
+                        <td><a href="#"><img src="resources/phone-book/download_recipients_list_icon.png" alt=""></a></td>
+                        <td><a href="#"><img src="resources/phone-book/remove_campaign_icon.png" alt=""></a></td>
+                    </tr>
+                    <tr>
+                        <td>List Name Longer 3</td>
+                        <td><a href="#"><img src="resources/phone-book/edit_icon.png" alt=""></a></td>
+                        <td><a href="#"><img src="resources/phone-book/download_recipients_list_icon.png" alt=""></a></td>
+                        <td><a href="#"><img src="resources/phone-book/remove_campaign_icon.png" alt=""></a></td>
+                    </tr>
+                    <tr>
+                        <td>List Name Longer 3</td>
+                        <td><a href="#"><img src="resources/phone-book/edit_icon.png" alt=""></a></td>
+                        <td><a href="#"><img src="resources/phone-book/download_recipients_list_icon.png" alt=""></a></td>
+                        <td><a href="#"><img src="resources/phone-book/remove_campaign_icon.png" alt=""></a></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <span>Copyright (c) MMD Smart 2016. All right reserved.</span>
+    </footer>
+</body>
+</html>
