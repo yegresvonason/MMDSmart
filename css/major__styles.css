@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  transition: all 0.3s ease; }
+
+header .container-fluid {
+  padding: 0; }
+
+header .top-header {
+  min-height: 63px; }
+
+header .header__balance {
+  text-align: left; }
+  header .header__balance img {
+    margin-left: 4em;
+    height: 10px; }
+  header .header__balance p {
+    color: #000000;
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 9px;
+    margin: 0;
+    text-transform: uppercase; }
+  header .header__balance #header__balance__value {
+    color: #eb009d;
+    font-size: 17px;
+    font-weight: 900; }
+
+header .header__button {
+  text-align: right; }
+  header .header__button button {
+    background: linear-gradient(to right, #c252ac, #c352ac);
+    border: 1px solid #952d44;
+    border-radius: 4px;
+    height: 33px;
+    padding: 0;
+    position: relative;
+    text-align: left;
+    width: 101px; }
+  header .header__button span {
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    text-transform: uppercase; }
+  header .header__button img {
+    position: absolute;
+    right: 2px;
+    top: 0; }
+
+header .header__form div {
+  background-color: #00669f;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  line-height: 47px;
+  margin-left: auto;
+  min-height: 47px;
+  max-width: 202px;
+  text-align: center; }
+
+header .header__form a {
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 11px;
+  font-weight: bold; }
+
+header .header__form span {
+  color: #fff;
+  margin: 0 0.5em; }
+
+header #bottom-header {
+  background: linear-gradient(to right, #bd53ad, #0066a0);
+  min-height: 73px; }
+  header #bottom-header div {
+    padding-top: 15px;
+    text-align: center; }
+  header #bottom-header a img {
+    display: block;
+    margin: 0 auto 10px; }
+  header #bottom-header a span {
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    text-transform: uppercase; }
+  header #bottom-header #triangle {
+    display: block;
+    margin: 0 auto; }
+  header #bottom-header div:hover {
+    background-color: #7c437b; }
+
+@media (min-width: 769px) {
+  .header__balance {
+    text-align: right !important; } }

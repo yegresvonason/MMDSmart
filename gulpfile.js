@@ -1,14 +1,27 @@
-'use strict';
+const gulp = require('gulp'),
+			pug = require('gulp-pug'),
+			watch = require('gulp-watch'),
+			sass = require('gulp-sass');
 
-var gulp = require('gulp');
-var sass = require('gulp-sass');
+/*	.pug to .html	*/
+gulp.task ('pug', () => {
+	const run = () => gulp.src('./pug/*.pug')
+		.pipe(pug({pretty: true}))
+		.pipe(gulp.dest('./')); 
 
-gulp.task('sass', function(){
-    return gulp.src('./sass/**/*.scss')
-        .pipe(sass().on('error', sass.logError))
-        .pipe(gulp.dest('./css'))
+		watch('./pug/*.pug', run);
+
+		return run();
+});
+/*	sass to css	*/
+gulp.task('sass', () => {
+	const start = () => gulp.src('./sass/*.scss')
+		.pipe(sass().on('error', sass.logError))
+		.pipe(gulp.dest('./css'));
+
+		watch('./sass/*.scss', start);
+
+		return start();
 });
 
-gulp.task('sass:watch', function(){
-    gulp.watch('./sass/**/*.scss', ['sass']);
-});
+gulp.task('default', ['pug', 'sass']);
